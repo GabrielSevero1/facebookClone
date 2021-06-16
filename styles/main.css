@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    width: 100vw;
+    height: 75vh;
+    background-color: #f0f2f5; 
+
+    display: flex;
+}
+
+#presentation {
+    width: 50vw;
+    height: 75vh;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#presentation #infos {
+    width: 530px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    
+    margin-bottom: 90px;
+    margin-right: -5px;
+}
+
+#presentation #infos img { 
+    width: 300px;
+    height: 120px;
+
+    margin-bottom: -20px;
+}
+
+#presentation #infos h2 {
+    font-size: 28px; 
+
+    margin-left: 25px;
+}
+
+#content {
+    width: 50vw;
+    height: 75vh;
+
+    display: flex;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    height: 350px;
+
+    margin-left: 83px;
+    margin-bottom: 105px;
+
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.form-group {
+    margin-top: 15px;
+}
+
+form input {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+    
+    border: 1px solid transparent;
+    border-color: #DCDCDC;
+
+    transition: border-color 0.2s ease-in;
+
+    outline: none;
+
+    padding: 20px;
+}
+
+form input:focus {
+    border-color: #00BFFF;
+}
+
+
+
+form input::placeholder {
+    font-size: 16px;
+}
+
+form #enter {
+    width: 360px;
+    height: 50px;
+    border-radius: 5px;
+
+    background-color: #1877f2;
+    border: none;
+
+    cursor: pointer;
+
+    transition: 0.2s ease-in;
+
+    font-size: 20px;
+    color: white;
+}
+
+form #enter:hover {
+    background-color: blue;
+}
+
+form a{
+    text-decoration: none;
+    color: #1877f2;
+
+    margin-left: 130px;
+}
+
+form a::after {
+    content: "";
+    width: 380px;
+    height: 1px;
+    background-color: #D3D3D3;
+    display: block;
+
+    margin-top: 20px;
+}
+
+form #newAccount {
+    width: 160px;
+    height: 50px;
+    background-color: #42b72a;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    margin-top: 20px;
+
+    transition: 0.2s ease-in;
+
+    color: white;
+    font-size: 16px;
+}
+
+form #newAccount:hover {
+    background-color: green;
+}
+
+#footer {
+    width: 100vw;
+    height: 25vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
